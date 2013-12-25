@@ -1,0 +1,70 @@
+.panel-group {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.glyphicon {
+  float: right;
+}
+
+.tweetIcons span {
+  padding-right: 7px;
+}
+
+.tweetIcons {
+  float: left;
+  margin-bottom: 40px;
+}
+
+.picDiv {
+  position: absolute;
+  margin: 4px 4px;
+}
+
+.frame {
+  height: 62px;
+  width: 62px;
+  border: 3px solid #c4c4c4;
+  border-radius: 6px;
+}
+
+.nameHandleDiv {
+  margin-left: 35px;
+  margin-top: -60px;
+}
+
+li {
+  display: inline;
+}
+
+strong, em {
+  font-size: 20px;
+}
+
+.message {
+  color: #666;
+/*  margin-bottom: 40px; */
+}
+
+.followCount {
+  float: right;
+  color: #666;
+  font-size: 11px;
+}
+
+.followCount li {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-right: 5px;
+}
+
+span {
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.tweetTime {
+  font-size: 11px;
+  color: #666;
+  clear: both;
+}

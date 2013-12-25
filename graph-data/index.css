@@ -1,0 +1,56 @@
+.content {
+  padding: 2em;
+}
+
+#chart {
+  margin: 0 auto;
+  width: 760px;
+}
+
+.nav-pills {
+  float: right;
+}
+
+/* For the Graph */
+
+.line {
+  fill: none;
+  stroke-width: 5px;
+  stroke: #3b96eb;
+}
+
+.domain,
+.tick line {
+  fill: none;
+  stroke-width: 1px;
+  stroke: #ccc;
+  stroke-opacity: 0.4;
+  shape-rendering: crispedges;
+}
+
+.tick text {
+  fill: #a6a6a6;
+  font-size: 1em;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div.d3tooltip {
+  width: 200px;
+  height: 75px;
+  padding: 2px;
+  background-color: #aaa;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.point {
+  fill: rgb(255,255,255);
+  stroke-width: 2px;
+  stroke: rgb(51, 156, 255);
+}
+
+.point.max {
+  fill: rgb(51, 156, 255);
+  stroke-width: 2px;
+}
